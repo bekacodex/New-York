@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The NowYork Turiszim</title>
+    <link rel="stylesheet" href="nowyork.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+
+<body>
+    <section>
+        <img src="pngwing.com (28).png" class="mosque">
+        <header>
+            <a href="#" class="logo">NewYork</a>
+            <ul class="navigation">
+                <li><a href="#" style="--i:1;" class="active">Home</a></li>
+                <li><a href="#" style="--i:2;">About</a></li>
+                <li><a href="#" style="--i:3;">Info Of NowYork</a></li>
+                <li><a href="#" style="--i:4;">City</a></li>
+                <li><a href="#" style="--i:5;">Blog</a></li>
+                <img src="menu1.png" style- "--i:6;" class="toggle" width="40px" height="40px">
+
+            </ul>
+        </header>
+        <!----container-->
+        <div class="content">
+            <div class="textBox">
+                <h2>Welcome to NewYork !!</h2>
+                <p>New York, is the most populous city in the United States.<br> With an estimated 2019 population of 8,336,817 distributed over about 302.6square miles(784 km2)<br> New York City is also the most densely populated major city in the United
+                    States.
+                    <br> Located at the southern tip of the State of New York, the city is the center of the New York metropolitan area,<br> largest metropolitan area in the world by urban landmass. </p>
+                <a href="#">Real More</a>
+            </div>
+        </div>
+
+        <!--aci--->
+        <div class="sci">
+            <li>
+                <a href="#" style="--i:12;"><img src="instagram.png" width="70px" height="70px"></a>
+            </li>
+            <li>
+                <a href="#" style="--i:12;"><img src="facebook.png" width="80px" height="80px"></a>
+            </li>
+            <li>
+                <a href="#" style="--i:12;"><img src="telegram.png" width="80px" height="80px"></a>
+            </li>
+        </div>
+    </section>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function() {
+            menuToggle.classList.toggle('active');
+            menuToggle.classList.toggle('navigation');
+        }
+    </script>
+</body>
+
+</html>
